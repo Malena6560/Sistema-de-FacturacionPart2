@@ -135,8 +135,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\ClientesController.cs" />
+    <Compile Include="Controllers\DetalleFacturasController.cs" />
+    <Compile Include="Controllers\EntradaMercanciasController.cs" />
+    <Compile Include="Controllers\FacturasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductosController.cs" />
+    <Compile Include="Controllers\ProveedoresController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -206,6 +210,26 @@
     <Content Include="Views\Productos\Details.cshtml" />
     <Content Include="Views\Productos\Edit.cshtml" />
     <Content Include="Views\Productos\Index.cshtml" />
+    <Content Include="Views\Proveedores\Create.cshtml" />
+    <Content Include="Views\Proveedores\Delete.cshtml" />
+    <Content Include="Views\Proveedores\Details.cshtml" />
+    <Content Include="Views\Proveedores\Edit.cshtml" />
+    <Content Include="Views\Proveedores\Index.cshtml" />
+    <Content Include="Views\Facturas\Create.cshtml" />
+    <Content Include="Views\Facturas\Delete.cshtml" />
+    <Content Include="Views\Facturas\Details.cshtml" />
+    <Content Include="Views\Facturas\Edit.cshtml" />
+    <Content Include="Views\Facturas\Index.cshtml" />
+    <Content Include="Views\DetalleFacturas\Create.cshtml" />
+    <Content Include="Views\DetalleFacturas\Delete.cshtml" />
+    <Content Include="Views\DetalleFacturas\Details.cshtml" />
+    <Content Include="Views\DetalleFacturas\Edit.cshtml" />
+    <Content Include="Views\DetalleFacturas\Index.cshtml" />
+    <Content Include="Views\EntradaMercancias\Create.cshtml" />
+    <Content Include="Views\EntradaMercancias\Delete.cshtml" />
+    <Content Include="Views\EntradaMercancias\Details.cshtml" />
+    <Content Include="Views\EntradaMercancias\Edit.cshtml" />
+    <Content Include="Views\EntradaMercancias\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
