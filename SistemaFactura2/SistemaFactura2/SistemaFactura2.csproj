@@ -155,6 +155,10 @@
     <Compile Include="Migrations\202004080213075_v2.designer.cs">
       <DependentUpon>202004080213075_v2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004081340392_v3.cs" />
+    <Compile Include="Migrations\202004081340392_v3.designer.cs">
+      <DependentUpon>202004081340392_v3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categorias.cs" />
     <Compile Include="Models\Clientes.cs" />
@@ -175,6 +179,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Img\Flor1.jpg" />
     <Content Include="Rotativa\help-wkhtmltoimage.txt" />
     <Content Include="Rotativa\help-wkhtmltopdf.txt" />
     <Content Include="Rotativa\wkhtmltoimage.exe" />
@@ -265,6 +270,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004080213075_v2.resx">
       <DependentUpon>202004080213075_v2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004081340392_v3.resx">
+      <DependentUpon>202004081340392_v3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

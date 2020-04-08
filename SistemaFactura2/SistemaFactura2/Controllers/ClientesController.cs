@@ -15,11 +15,22 @@ namespace SistemaFactura2.Controllers
         private MantenimientoContext db = new MantenimientoContext();
 
         // GET: Clientes
-        public ActionResult Index()
+        public ActionResult Index( string nombre="", int idcategoria= 0)
         {
-            
             var cliente = db.Cliente.Include(c => c.Categoria);
-            return View(cliente.ToList());
+
+            List<Clientes> clientesList = new List<Clientes>();
+            List<Categorias> categoriasList = new List<Categorias>();
+            if(nombre != "")
+            {
+                clientesList = db.Cliente.Where(c => c.Nombre.Equals(nombre)).ToList();
+                clientesList = db.Cliente.Where(c => c.Categoria.Equals(idcategoria)).ToList();
+            }
+            else
+            {
+                clientesList = db.Cliente.ToList();
+            }
+            return View(clientesList);
         }
 
         // GET: Clientes/Details/5

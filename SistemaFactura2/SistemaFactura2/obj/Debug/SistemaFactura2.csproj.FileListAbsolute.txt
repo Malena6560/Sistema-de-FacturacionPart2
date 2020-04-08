@@ -91,3 +91,6 @@ C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\Sis
 C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\obj\Debug\SistemaFactura2.Migrations.v1.resources
 C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\obj\Debug\SistemaFactura2.csproj.GenerateResource.cache
 C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\obj\Debug\SistemaFactura2.Migrations.v2.resources
+C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\bin\Rotativa.dll
+C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\obj\Debug\SistemaFactura2.csprojAssemblyReference.cache
+C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\obj\Debug\SistemaFactura2.Migrations.v3.resources
