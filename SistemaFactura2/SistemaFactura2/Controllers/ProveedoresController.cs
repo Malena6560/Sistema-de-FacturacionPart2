@@ -31,6 +31,7 @@ namespace SistemaFactura2.Controllers
             ViewBag.nombre = nombre;
             return View(proveedoresList);
         }
+
         public ActionResult Imprimir()
         {
             var print = new ActionAsPdf("Index");

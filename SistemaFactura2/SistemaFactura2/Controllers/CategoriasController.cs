@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
+using Rotativa;
 using System.Web;
 using System.Web.Mvc;
 using SistemaFactura2.Models;
@@ -18,6 +19,12 @@ namespace SistemaFactura2.Controllers
         public ActionResult Index()
         {
             return View(db.Categorias.ToList());
+        }
+
+        public ActionResult Imprimir()
+        {
+            var print = new ActionAsPdf("Index");
+            return print;
         }
 
         // GET: Categorias/Details/5

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Rotativa;
 using SistemaFactura2.Models;
 
 namespace SistemaFactura2.Controllers
@@ -29,6 +30,12 @@ namespace SistemaFactura2.Controllers
             }
             ViewBag.nombre = nombre;
             return View(productoList);
+        }
+
+        public ActionResult Imprimir()
+        {
+            var print = new ActionAsPdf("Index");
+            return print;
         }
 
         // GET: Productos/Details/5

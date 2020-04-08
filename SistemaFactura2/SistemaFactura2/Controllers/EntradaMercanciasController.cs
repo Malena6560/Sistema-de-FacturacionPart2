@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using Rotativa;
 using SistemaFactura2.Models;
 
 namespace SistemaFactura2.Controllers
@@ -34,6 +35,12 @@ namespace SistemaFactura2.Controllers
                 return HttpNotFound();
             }
             return View(entradaMercancia);
+        }
+
+        public ActionResult Imprimir()
+        {
+            var print = new ActionAsPdf("Index");
+            return print;
         }
 
         // GET: EntradaMercancias/Create

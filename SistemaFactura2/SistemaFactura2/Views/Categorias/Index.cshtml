@@ -7,7 +7,8 @@
 <h2>Categorias</h2>
 
 <p>
-    @Html.ActionLink("Nuevo", "Create")
+    @Html.ActionLink("Nuevo", "Create", null, new { @class = "btn btn-info" })
+    @Html.ActionLink("Print", "Imprimir", null, new { @class = "btn btn-info" })
 </p>
 <table class="table">
     <tr>
