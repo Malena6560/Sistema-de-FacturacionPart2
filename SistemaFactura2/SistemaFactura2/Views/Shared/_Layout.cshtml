@@ -17,13 +17,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Nombre de aplicación", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Sistema de Facturación", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Acerca de", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Mantenimientos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <p class="dropdown-item">@Html.ActionLink("Productos", "Index", "Productos")</p>
+                            <p class="dropdown-item">@Html.ActionLink("Clientes", "Index", "Clientes")</p>
+                            <p class="dropdown-item">@Html.ActionLink("Proveedores", "Index", "Proveedores")</p>
+                            <p class="dropdown-item">@Html.ActionLink("Categorias", "Index", "Categorias")</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
