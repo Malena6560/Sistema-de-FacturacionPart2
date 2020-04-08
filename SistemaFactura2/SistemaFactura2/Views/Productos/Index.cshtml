@@ -20,9 +20,6 @@
     @Html.ActionLink("Nuevo", "Create")
 </p>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
 <table class="table">
     <tr>
         <th>
@@ -44,9 +41,9 @@
         @Html.DisplayFor(modelItem => item.Precio)
     </td>
     <td>
-        @Html.ActionLink("Edit", "Edit", new { id = item.IDProductos }) |
-        @Html.ActionLink("Details", "Details", new { id = item.IDProductos }) |
-        @Html.ActionLink("Delete", "Delete", new { id = item.IDProductos })
+        @Html.ActionLink("Editar", "Edit", new { id = item.IDProductos }) |
+        @Html.ActionLink("Detalles", "Details", new { id = item.IDProductos }) |
+        @Html.ActionLink("Eliminar", "Delete", new { id = item.IDProductos })
     </td>
 </tr>
 }

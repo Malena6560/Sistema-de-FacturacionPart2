@@ -84,7 +84,6 @@ C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\Sis
 C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\obj\Debug\SistemaFactura2.csprojAssemblyReference.cache
 C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\obj\Debug\SistemaFactura2.csproj.CoreCompileInputs.cache
 C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\obj\Debug\SistemaFactura2.csproj.CopyComplete
 C:\Users\Malena\Documents\GitHub\Sistema-de-FacturacionPart2\SistemaFactura2\SistemaFactura2\obj\Debug\SistemaFactura2.dll

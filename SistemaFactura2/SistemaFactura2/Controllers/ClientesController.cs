@@ -17,6 +17,7 @@ namespace SistemaFactura2.Controllers
         // GET: Clientes
         public ActionResult Index()
         {
+            
             var cliente = db.Cliente.Include(c => c.Categoria);
             return View(cliente.ToList());
         }
