@@ -17,21 +17,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Sistema de Facturación de Floristeria", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Sistema de Floristeria", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Mantenimientos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <p class="dropdown-item">@Html.ActionLink("Productos", "Index", "Productos")</p>
-                            <p class="dropdown-item">@Html.ActionLink("Clientes", "Index", "Clientes")</p>
-                            <p class="dropdown-item">@Html.ActionLink("Proveedores", "Index", "Proveedores")</p>
-                            <p class="dropdown-item">@Html.ActionLink("Categorias", "Index", "Categorias")</p>
-                        </div>
-                    </li>
+                    <li>@Html.ActionLink("Productos", "Index", "Productos")</li>
+                    <li>@Html.ActionLink("Clientes", "Index", "Clientes")</li>
+                    <li>@Html.ActionLink("Proveedores", "Index", "Proveedores")</li>
+                    <li>@Html.ActionLink("Categorias", "Index", "Categorias")</li>
+                    <li>@Html.ActionLink("Facturas", "Index", "Facturas")</li>
+                    <li>@Html.ActionLink("Detalles factura", "Index", "DetalleFacturas")</li>
+                    <li>@Html.ActionLink("Mercancias", "Index", "EntradaMercancias")</li>
                 </ul>
             </div>
         </div>

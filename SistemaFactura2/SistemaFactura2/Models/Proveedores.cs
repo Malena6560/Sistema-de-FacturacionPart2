@@ -19,8 +19,8 @@ namespace SistemaFactura2.Models
         [Required]
         public string Telefono { get; set; }
 
-        [RegularExpression(@"\w+([-+.']\w+)@\w+([-.]\w+)\.\w+([-.]\w+)*",
-        ErrorMessage = "Dirección de Correo electrónico incorrecta.")]
+        [RegularExpression(@"\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*",
+            ErrorMessage = "Dirección de Correo electrónico incorrecta.")]
         public string Email { get; set; }
     }
 }
