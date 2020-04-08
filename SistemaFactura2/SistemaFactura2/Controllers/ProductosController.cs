@@ -15,9 +15,20 @@ namespace SistemaFactura2.Controllers
         private MantenimientoContext db = new MantenimientoContext();
 
         // GET: Productos
-        public ActionResult Index()
+        public ActionResult Index(string nombre ="")
         {
-            return View(db.Producto.ToList());
+            List<Productos> productoList = new List<Productos>();
+
+            if (nombre != "")
+            {
+                productoList = db.Producto.Where(p => p.Nombre.Contains(nombre)).ToList();
+            }
+            else
+            {
+                productoList = db.Producto.ToList();
+            }
+            ViewBag.nombre = nombre;
+            return View(productoList);
         }
 
         // GET: Productos/Details/5
